@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.vscode
+.git
+.gitignore
+
+# Training datasets and experiment results
+samsum-*.csv
+results/
+saved_summery_model/
+text_summarizer.ipynb
+
+# Environments
+venv/
+.env/
