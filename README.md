@@ -1,5 +1,6 @@
 # 📝 Dialogue & Text Summarizer (T5 Fine-Tuned)
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Render-success?logo=render)](https://text-summarizer-3jjy.onrender.com)
 [![Docker Image](https://img.shields.io/badge/Docker%20Hub-margish002%2Ftext--summarizer-blue?logo=docker)](https://hub.docker.com/r/margish002/text-summarizer)
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -7,6 +8,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end Deep Learning NLP application that generates abstractive summaries for dialogues and conversational text. Built by fine-tuning Google's **T5 (Text-to-Text Transfer Transformer)** on the **SAMSum** dataset, wrapped in a **FastAPI** web service with a clean web UI, and fully containerized with **Docker** for one-command deployment.
+
+---
+
+## 🌐 Live Demo
+
+You can try the web application live without installing anything:
+
+👉 **[https://text-summarizer-3jjy.onrender.com](https://text-summarizer-3jjy.onrender.com)**
+
+> [!NOTE]
+> Hosted on Render free tier. If the instance was inactive, please allow 30–50 seconds for the initial cold start.
 
 ---
 
